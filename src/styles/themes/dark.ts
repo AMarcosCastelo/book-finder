@@ -5,6 +5,6 @@ export default {
     secundary: '#acad94',
     inputBorder: '#d8d4d5',
     backgroud: '#222',
-    text: '#fff'
+    text: '#fff',
   }
 };

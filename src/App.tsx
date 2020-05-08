@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
+import Main from './components/Main';
 import {ThemeProvider, DefaultTheme} from 'styled-components';
 import usePersistedState from './Utils/usePersistedState';
 
@@ -21,6 +22,7 @@ function App() {
         <GlobalStyle/>
         <Header toggleTheme={toggleTheme} />
         <Search />
+        <Main />
       </div>
     </ThemeProvider>
   );

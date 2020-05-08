@@ -5,6 +5,7 @@ import whiteLupa from '../../img/whiteLupa.svg';
 export const Container = styled.div`
   display: flex;
   justify-content: center;
+  margin-bottom:20px;
 `;
 
 export const SearchContainer = styled.div`
