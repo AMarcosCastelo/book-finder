@@ -16,13 +16,13 @@ export const CardItem = styled.article`
 			rgba(49, 49, 49, 0.05) 0px 4px 4px, rgba(42, 42, 42, 0.05) 0px 8px 8px,
 			rgba(32, 32, 32, 0.05) 0px 16px 16px, rgba(49, 49, 49, 0.05) 0px 32px 32px,
 			rgba(35, 35, 35, 0.05) 0px 64px 64px;
-		transform: translate(0, -4px);
+		transform: translate(0, -10px);
     cursor: pointer;
 	}
 `;
 
 export const Thumbnail = styled.div`
-  background-image: url('https://picsum.photos/200/450/?random');
+  background-image: url('${props => props.title}');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -35,7 +35,7 @@ export const Content = styled.div`
   position: relative;
   padding: 20px 25px 20px 25px;
   h4 {
-    font-size: 18x;
+    font-size: 18px;
     font-weight: normal;
     color: ${props => props.theme.colors.text};
     margin-top: 5px;
@@ -49,8 +49,8 @@ export const Content = styled.div`
     margin-bottom: 5px;
   }
   .ago {
-    color: rgba(179, 192, 200, 1);
-    font-size: 12px;
+    color: ${props => props.theme.colors.text};
+    font-size: 16px;
     text-align: left;
     transition: color 0.35s;
   }
