@@ -8,12 +8,12 @@ interface Props {
 
 const Cards: React.FC<Props> = ({book}) => {
   return (
-    <CardItem>
-      <Thumbnail title={book.imageLinks.thumbnail}/>
+    <CardItem href={book.infoLink} target="_blanck">
+      <Thumbnail src={book.imageLinks.thumbnail}/>
       <Content>
         <h4>{book.title}</h4>
-        <span className="ago">{book.authors.join(", ")}</span>
-        <p> Proin vulputate pellentesque efficitur.</p>
+        <span className="author">Author: {book.authors.join(", ")}</span>
+        <p>{book.subtitle}</p>
       </Content>
     </CardItem>
   );

@@ -15,7 +15,8 @@ export type VolumeInfo = {
   authors: string [],
   infoLink: string,
   publishedDate: string,
-  imageLinks: {thumbnail: string}
+  imageLinks: {thumbnail: string},
+  subtitle: string
 };
 
 export type Book = {
@@ -53,7 +54,8 @@ function App() {
         authors: book.volumeInfo.authors,
         infoLink: book.volumeInfo.infoLink,
         publishedDate: book.volumeInfo.publishedDate,
-        imageLinks: {thumbnail: img !== undefined ? img.thumbnail : '-'}
+        imageLinks: {thumbnail: img !== undefined ? img.thumbnail : '-'},
+        subtitle: book.volumeInfo.subtitle
       });
     });
     setBooks(books);
