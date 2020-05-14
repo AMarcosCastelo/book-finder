@@ -16,7 +16,7 @@ export type VolumeInfo = {
   previewLink: string,
   publishedDate: string,
   imageLinks: {thumbnail: string},
-  publisher: string
+  publisher: string,
 };
 
 export type Book = {
@@ -38,7 +38,13 @@ function App() {
           q: value,
         },
       });
-      setStateBooks(response.data.items);
+      console.log(response);
+      if (response.data.totalItems !== 0) {
+        setStateBooks(response.data.items);
+      } else {
+        // Make something
+        setBooks([]);
+      }
     } catch (error) {
       console.error(error);
     }
@@ -46,17 +52,19 @@ function App() {
 
   function setStateBooks (data: []): void {
     const books: VolumeInfo[] = [];
+
     data.forEach((book: Book) => {
-      const img = book.volumeInfo.imageLinks;
+      const {title, authors, previewLink, publishedDate, imageLinks, publisher} = book.volumeInfo;
       books.push({
-        title: book.volumeInfo.title,
-        authors: book.volumeInfo.authors,
-        previewLink: book.volumeInfo.previewLink,
-        publishedDate: book.volumeInfo.publishedDate,
-        imageLinks: {thumbnail: img !== undefined ? img.thumbnail : '-'},
-        publisher: book.volumeInfo.publisher
+        title: title !== undefined ? title : 'Untitled',
+        authors: authors !== undefined ? authors : ['-'],
+        previewLink: previewLink !== undefined ? previewLink : '#',
+        publishedDate: publishedDate !== undefined ? publishedDate : '-',
+        imageLinks: {thumbnail: imageLinks !== undefined ? imageLinks.thumbnail : '-'},
+        publisher: publisher !== undefined ? publisher : '-',
       });
     });
+    
     setBooks(books);
   };
 
@@ -66,7 +74,7 @@ function App() {
         <GlobalStyle/>
         <Header toggleTheme={toggleTheme} />
         <Search getData={getData} />
-        <Main booksData={books} /> 
+        <Main booksData={books} />
       </div>
     </ThemeProvider>
   );

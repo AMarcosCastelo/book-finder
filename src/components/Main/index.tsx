@@ -12,7 +12,9 @@ const Main: React.FC<Props> = ({booksData})=> {
 
   return (
     <Container>
-      {booksData.map((book, index) => <Cards book={book} key={index} />)}
+      {
+        booksData.map((book, index) => <Cards book={book} key={index} />)
+      }
     </Container>
   );
 }
