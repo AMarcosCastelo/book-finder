@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/book-finder/static/js/main.6603521b.chunk.js",
-    "main.js.map": "/book-finder/static/js/main.6603521b.chunk.js.map",
+    "main.js": "/book-finder/static/js/main.464336df.chunk.js",
+    "main.js.map": "/book-finder/static/js/main.464336df.chunk.js.map",
     "runtime-main.js": "/book-finder/static/js/runtime-main.7d142e03.js",
     "runtime-main.js.map": "/book-finder/static/js/runtime-main.7d142e03.js.map",
     "static/js/2.2b550152.chunk.js": "/book-finder/static/js/2.2b550152.chunk.js",
     "static/js/2.2b550152.chunk.js.map": "/book-finder/static/js/2.2b550152.chunk.js.map",
     "index.html": "/book-finder/index.html",
-    "precache-manifest.c1f291ceab7bdb266699c565f3f4717a.js": "/book-finder/precache-manifest.c1f291ceab7bdb266699c565f3f4717a.js",
+    "precache-manifest.d0d2ab0b21fe1c946c21147e5c539a9f.js": "/book-finder/precache-manifest.d0d2ab0b21fe1c946c21147e5c539a9f.js",
     "service-worker.js": "/book-finder/service-worker.js",
     "static/js/2.2b550152.chunk.js.LICENSE.txt": "/book-finder/static/js/2.2b550152.chunk.js.LICENSE.txt",
     "static/media/blackLupa.svg": "/book-finder/static/media/blackLupa.1421341d.svg",
@@ -16,6 +16,6 @@
   "entrypoints": [
     "static/js/runtime-main.7d142e03.js",
     "static/js/2.2b550152.chunk.js",
-    "static/js/main.6603521b.chunk.js"
+    "static/js/main.464336df.chunk.js"
   ]
 }
