@@ -1,9 +1,8 @@
 import React from 'react';
-// import Cards from '../Cards';
+import Cards from '../Cards';
+import { VolumeInfo } from '../../App';
 
 import { Container } from './styles';
-import { VolumeInfo } from '../../App';
-import Cards from '../Cards';
 
 interface Props {
   booksData: VolumeInfo[]

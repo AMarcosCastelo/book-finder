@@ -9,6 +9,7 @@ declare module 'styled-components' {
       inputBorder: string,
       backgroud: string,
       text: string,
+      textLight: string,
     }
   }
 }

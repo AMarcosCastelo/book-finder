@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   height: 60px;
   background: ${props => props.theme.colors.primary};
-  color: ${props => props.theme.colors.text};
+  color: ${props => props.theme.colors.textLight};
   font-size: 30px;
   display: flex;
   align-items: center;

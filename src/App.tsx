@@ -13,10 +13,10 @@ import Search from './components/Search';
 export type VolumeInfo = {
   title: String,
   authors: string [],
-  infoLink: string,
+  previewLink: string,
   publishedDate: string,
   imageLinks: {thumbnail: string},
-  subtitle: string
+  publisher: string
 };
 
 export type Book = {
@@ -46,20 +46,18 @@ function App() {
 
   function setStateBooks (data: []): void {
     const books: VolumeInfo[] = [];
-    console.log(data);
     data.forEach((book: Book) => {
       const img = book.volumeInfo.imageLinks;
       books.push({
         title: book.volumeInfo.title,
         authors: book.volumeInfo.authors,
-        infoLink: book.volumeInfo.infoLink,
+        previewLink: book.volumeInfo.previewLink,
         publishedDate: book.volumeInfo.publishedDate,
         imageLinks: {thumbnail: img !== undefined ? img.thumbnail : '-'},
-        subtitle: book.volumeInfo.subtitle
+        publisher: book.volumeInfo.publisher
       });
     });
     setBooks(books);
-    console.log(books);
   };
 
   return (

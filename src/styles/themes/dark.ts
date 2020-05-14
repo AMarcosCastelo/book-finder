@@ -6,5 +6,6 @@ export default {
     inputBorder: '#d8d4d5',
     backgroud: '#222',
     text: '#fff',
+    textLight:'#F5f5f5',
   }
 };
