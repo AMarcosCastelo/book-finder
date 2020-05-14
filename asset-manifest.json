@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "/static/js/main.6603521b.chunk.js",
-    "main.js.map": "/static/js/main.6603521b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.aeda92fc.js",
-    "runtime-main.js.map": "/static/js/runtime-main.aeda92fc.js.map",
-    "static/js/2.4f0c7176.chunk.js": "/static/js/2.4f0c7176.chunk.js",
-    "static/js/2.4f0c7176.chunk.js.map": "/static/js/2.4f0c7176.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.feca9c8311d1ec21b852596bb651aacf.js": "/precache-manifest.feca9c8311d1ec21b852596bb651aacf.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.4f0c7176.chunk.js.LICENSE.txt": "/static/js/2.4f0c7176.chunk.js.LICENSE.txt",
-    "static/media/blackLupa.svg": "/static/media/blackLupa.1421341d.svg",
-    "static/media/whiteLupa.svg": "/static/media/whiteLupa.5cdf7043.svg"
+    "main.js": "/book-finder/static/js/main.6603521b.chunk.js",
+    "main.js.map": "/book-finder/static/js/main.6603521b.chunk.js.map",
+    "runtime-main.js": "/book-finder/static/js/runtime-main.7d142e03.js",
+    "runtime-main.js.map": "/book-finder/static/js/runtime-main.7d142e03.js.map",
+    "static/js/2.2b550152.chunk.js": "/book-finder/static/js/2.2b550152.chunk.js",
+    "static/js/2.2b550152.chunk.js.map": "/book-finder/static/js/2.2b550152.chunk.js.map",
+    "index.html": "/book-finder/index.html",
+    "precache-manifest.c1f291ceab7bdb266699c565f3f4717a.js": "/book-finder/precache-manifest.c1f291ceab7bdb266699c565f3f4717a.js",
+    "service-worker.js": "/book-finder/service-worker.js",
+    "static/js/2.2b550152.chunk.js.LICENSE.txt": "/book-finder/static/js/2.2b550152.chunk.js.LICENSE.txt",
+    "static/media/blackLupa.svg": "/book-finder/static/media/blackLupa.1421341d.svg",
+    "static/media/whiteLupa.svg": "/book-finder/static/media/whiteLupa.5cdf7043.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.aeda92fc.js",
-    "static/js/2.4f0c7176.chunk.js",
+    "static/js/runtime-main.7d142e03.js",
+    "static/js/2.2b550152.chunk.js",
     "static/js/main.6603521b.chunk.js"
   ]
 }
