@@ -15,6 +15,10 @@
     FrontEnd
 </p>
 
+<p align="center">
+  <img alt="Frontend" src=".github/bookFinder2.png" width="100%">
+</p>
+
 ## Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
