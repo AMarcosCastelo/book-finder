@@ -12,11 +12,7 @@
 <br>
 
 <p align="center">
-    FrontEnd
-</p>
-
-<p align="center">
-  <img alt="Frontend" src=".github/bookFinder2.png" width="100%">
+  <img alt="Frontend" src=".github/bookkFinder2.png" width="100%">
 </p>
 
 ## Tecnologias
