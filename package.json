@@ -5,7 +5,7 @@
   "homepage": "https://amarcoscastelo.github.io/book-finder/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^10.4.9",
+    "@testing-library/react": "^11.0.4",
     "@testing-library/user-event": "^12.1.4",
     "@types/node": "^14.10.0",
     "@types/jest": "^26.0.13",
